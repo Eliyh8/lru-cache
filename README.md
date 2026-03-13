@@ -19,8 +19,6 @@ To run the test suite and verify functionality:
 zig build test --verbose
 Usage
 Example initialization:
-
-Code snippet
 var cache = LRUCache(u32, []const u8).init(allocator, 1024);
 defer cache.deinit();
 
@@ -28,6 +26,7 @@ try cache.put(1, "data");
 if (cache.get(1)) |value| {
     // Found it!
 }
-License
+
+### License
 MIT
 ---
