@@ -31,7 +31,7 @@ pub fn main() !void {
     }
 }
 ```
-Build and Test
+## Build and Test
 To run the test suite and verify functionality:
 ```bash
 zig build test --verbose
